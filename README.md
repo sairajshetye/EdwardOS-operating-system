@@ -1,3 +1,36 @@
+# EdwardOS Operating System
+
+This project was developed by my team of four for ECE391: Computer Systems Engineering at the University of Illinois Urbana-Champaign. It was originally on GitLab, and we ended up creating over 90 branches to work on different parts of the operating system independently as well as collaboratively.
+
+The majority of project files we created for the operating system are present in the `student-distrib` directory.
+
+# My primary contributions (sshetye2):
+
+Implemented the virtual memory paging mechanism, including page allocation, translation, and page fault handling, developing C data structures to contain page table entries and memory mappings.
+
+These files are present in `student-distrib` and include:
+`paging.c`
+`paging.h`
+
+Developed the file system layer, supporting file descriptors, directory traversal, and system calls such as open, read, and write. Created C structures for dentrys, inodes, etc.
+
+These files are present in `student-distrib` and include:
+`file.c`
+`file.h`
+
+Generally helped develop and fix bugs present in other files collaboratively with other team members. 
+
+Contributed to bug logs which describe errors myself and other team members fixed.
+
+Also anything else present in commits at the start of the project that I may have forgotten about.
+
+
+
+
+
+
+
+
 ACADEMIC INTEGRITY
 -----
 Please review the University of Illinois Student Code before starting,
